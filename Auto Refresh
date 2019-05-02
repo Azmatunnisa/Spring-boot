@@ -1,0 +1,5 @@
+Auto Refresh and update your project folder and resources by 
+following settings in STS (Spring Tool Suite:)
+
+Window >> Preferences >> General >> Workspace >> Now make sure to check "Refresh using native hooks or polling"
+
