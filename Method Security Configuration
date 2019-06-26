@@ -1,0 +1,6 @@
+@Configuration
+@EnableWebSecurity
+@EnableGlobalMethodSecurity(prePostEnabled = true)
+public class AppSecurityConfiguration extends WebSecurityConfigurerAdapter{
+}
+And in controller i changed @Secured("ADMIN") to @PreAuthorize("hasRole('ADMIN')")
